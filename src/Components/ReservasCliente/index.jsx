@@ -13,8 +13,6 @@ export default function ReservasCliente() {
     useEffect(() => {        
         getReservas()
     }, []);
-
-
     async function getReservas() {
         try {
             let cardsaux = [];
@@ -68,7 +66,7 @@ export default function ReservasCliente() {
             console.log(err)
         }
     }
-
+    
     return (
     <>
         {cards.map((item) => {

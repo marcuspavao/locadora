@@ -87,10 +87,6 @@ export default function ModuloReservas() {
                         </div>
                         <div>
                             <p>{item.ag_destino} - Entrega: {item.data_devolucao}</p>
-                            <div className="botaoContainer">
-                                <button>Alterar</button>
-                                <button>Cancelar</button>
-                            </div>
                         </div>
                     </li>
                 )
